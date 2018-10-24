@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F5834B821760C6900570DD2 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F5834B721760C6900570DD2 /* AudioToolbox.framework */; };
+		1F5834BA21760C7D00570DD2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F5834B921760C7D00570DD2 /* SystemConfiguration.framework */; };
+		1F5834C0218064E800570DD2 /* UserPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5834BF218064E800570DD2 /* UserPageView.swift */; };
 		1FD526F4216B587300578BE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD526F3216B587300578BE4 /* AppDelegate.swift */; };
 		1FD526F6216B587300578BE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD526F5216B587300578BE4 /* ViewController.swift */; };
 		1FD526F9216B587300578BE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FD526F7216B587300578BE4 /* Main.storyboard */; };
@@ -14,6 +17,7 @@
 		1FD526FE216B587500578BE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FD526FC216B587500578BE4 /* LaunchScreen.storyboard */; };
 		1FD52709216B587500578BE4 /* ShareTheBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD52708216B587500578BE4 /* ShareTheBookTests.swift */; };
 		1FD52714216B587500578BE4 /* ShareTheBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD52713216B587500578BE4 /* ShareTheBookUITests.swift */; };
+		7B786C6F6ADDCCC4141AC95B /* Pods_ShareTheBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38E292E6728082C14830E221 /* Pods_ShareTheBook.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F5834B721760C6900570DD2 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		1F5834B921760C7D00570DD2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1F5834BF218064E800570DD2 /* UserPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPageView.swift; sourceTree = "<group>"; };
 		1FD526F0216B587300578BE4 /* ShareTheBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShareTheBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FD526F3216B587300578BE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1FD526F5216B587300578BE4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +54,9 @@
 		1FD5270F216B587500578BE4 /* ShareTheBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareTheBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FD52713216B587500578BE4 /* ShareTheBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareTheBookUITests.swift; sourceTree = "<group>"; };
 		1FD52715216B587500578BE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FF7DA596DCC8A46A8BC5776 /* Pods-ShareTheBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareTheBook.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShareTheBook/Pods-ShareTheBook.release.xcconfig"; sourceTree = "<group>"; };
+		38E292E6728082C14830E221 /* Pods_ShareTheBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShareTheBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		999C9F578799C229A43A9C89 /* Pods-ShareTheBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareTheBook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShareTheBook/Pods-ShareTheBook.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F5834BA21760C7D00570DD2 /* SystemConfiguration.framework in Frameworks */,
+				1F5834B821760C6900570DD2 /* AudioToolbox.framework in Frameworks */,
+				7B786C6F6ADDCCC4141AC95B /* Pods_ShareTheBook.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +87,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F0E0C6421748653004FE40F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F5834B921760C7D00570DD2 /* SystemConfiguration.framework */,
+				1F5834B721760C6900570DD2 /* AudioToolbox.framework */,
+				38E292E6728082C14830E221 /* Pods_ShareTheBook.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1FD526E7216B587300578BE4 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +104,8 @@
 				1FD52707216B587500578BE4 /* ShareTheBookTests */,
 				1FD52712216B587500578BE4 /* ShareTheBookUITests */,
 				1FD526F1216B587300578BE4 /* Products */,
+				1F0E0C6421748653004FE40F /* Frameworks */,
+				9654CD4C3A3834ADAC2A6F9D /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +128,7 @@
 				1FD526FA216B587500578BE4 /* Assets.xcassets */,
 				1FD526FC216B587500578BE4 /* LaunchScreen.storyboard */,
 				1FD526FF216B587500578BE4 /* Info.plist */,
+				1F5834BF218064E800570DD2 /* UserPageView.swift */,
 			);
 			path = ShareTheBook;
 			sourceTree = "<group>";
@@ -125,6 +151,15 @@
 			path = ShareTheBookUITests;
 			sourceTree = "<group>";
 		};
+		9654CD4C3A3834ADAC2A6F9D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				999C9F578799C229A43A9C89 /* Pods-ShareTheBook.debug.xcconfig */,
+				1FF7DA596DCC8A46A8BC5776 /* Pods-ShareTheBook.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +167,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1FD52718216B587500578BE4 /* Build configuration list for PBXNativeTarget "ShareTheBook" */;
 			buildPhases = (
+				60ABEC18C0DD0F39AAD11518 /* [CP] Check Pods Manifest.lock */,
 				1FD526EC216B587300578BE4 /* Sources */,
 				1FD526ED216B587300578BE4 /* Frameworks */,
 				1FD526EE216B587300578BE4 /* Resources */,
+				0EC30A4D23E279AE56D41F01 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -251,12 +288,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0EC30A4D23E279AE56D41F01 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ShareTheBook/Pods-ShareTheBook-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShareTheBook/Pods-ShareTheBook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60ABEC18C0DD0F39AAD11518 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShareTheBook-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1FD526EC216B587300578BE4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1FD526F6216B587300578BE4 /* ViewController.swift in Sources */,
+				1F5834C0218064E800570DD2 /* UserPageView.swift in Sources */,
 				1FD526F4216B587300578BE4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,26 +517,38 @@
 		};
 		1FD52719216B587500578BE4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 999C9F578799C229A43A9C89 /* Pods-ShareTheBook.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = ShareTheBook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = Galina.ShareTheBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64";
 			};
 			name = Debug;
 		};
 		1FD5271A216B587500578BE4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FF7DA596DCC8A46A8BC5776 /* Pods-ShareTheBook.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = ShareTheBook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -459,6 +558,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64";
 			};
 			name = Release;
 		};
